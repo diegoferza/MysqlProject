@@ -1,0 +1,48 @@
+07-07-2020 12:02:02.018 [main] INFO 
+				c.p.s.MysqlProjectApplication.logStarting - Starting MysqlProjectApplication on PSLT5816 with PID 426400 (C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject\target\classes started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+07-07-2020 12:02:02.021 [main] INFO 
+				c.p.s.MysqlProjectApplication.logStartupProfileInfo - The following profiles are active: development
+07-07-2020 12:02:03.297 [main] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+07-07-2020 12:02:03.387 [main] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 77ms. Found 1 JPA repository interfaces.
+07-07-2020 12:02:03.964 [main] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+07-07-2020 12:02:03.975 [main] INFO 
+				o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8082"]
+07-07-2020 12:02:03.976 [main] INFO 
+				o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+07-07-2020 12:02:03.977 [main] INFO 
+				o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.36]
+07-07-2020 12:02:04.143 [main] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+07-07-2020 12:02:04.143 [main] INFO 
+				o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2084 ms
+07-07-2020 12:02:04.307 [main] WARN 
+				o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+07-07-2020 12:02:04.310 [main] INFO 
+				o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+07-07-2020 12:02:04.339 [main] INFO 
+				o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+07-07-2020 12:02:04.346 [main] ERROR
+				o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+

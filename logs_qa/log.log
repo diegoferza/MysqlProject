@@ -1,0 +1,1742 @@
+07-07-2020 13:40:36.910 [main] INFO 
+				c.p.s.MysqlProjectApplication.logStarting - Starting MysqlProjectApplication on PSLT5816 with PID 438692 (C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject\target\classes started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+07-07-2020 13:40:36.921 [main] INFO 
+				c.p.s.MysqlProjectApplication.logStartupProfileInfo - The following profiles are active: qa
+07-07-2020 13:40:38.270 [main] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+07-07-2020 13:40:38.345 [main] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 64ms. Found 1 JPA repository interfaces.
+07-07-2020 13:40:39.007 [main] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+07-07-2020 13:40:39.019 [main] INFO 
+				o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8082"]
+07-07-2020 13:40:39.020 [main] INFO 
+				o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+07-07-2020 13:40:39.021 [main] INFO 
+				o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.36]
+07-07-2020 13:40:39.164 [main] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+07-07-2020 13:40:39.164 [main] INFO 
+				o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2191 ms
+07-07-2020 13:40:39.488 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+07-07-2020 13:40:39.539 [task-1] INFO 
+				o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-07-2020 13:40:39.576 [main] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-07-2020 13:40:39.604 [task-1] INFO 
+				org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.17.Final
+07-07-2020 13:40:39.793 [task-1] INFO 
+				o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+07-07-2020 13:40:39.928 [task-1] INFO 
+				com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+07-07-2020 13:40:40.284 [task-1] INFO 
+				com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+07-07-2020 13:40:40.311 [task-1] INFO 
+				org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+07-07-2020 13:40:41.136 [task-1] INFO 
+				o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-07-2020 13:40:41.145 [task-1] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-07-2020 13:40:41.195 [main] INFO 
+				o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+07-07-2020 13:40:41.225 [main] INFO 
+				o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8082"]
+07-07-2020 13:40:41.251 [main] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8082 (http) with context path ''
+07-07-2020 13:40:41.252 [main] INFO 
+				o.s.d.r.c.DeferredRepositoryInitializationListener.onApplicationEvent - Triggering deferred initialization of Spring Data repositories…
+07-07-2020 13:40:41.455 [main] INFO 
+				o.s.d.r.c.DeferredRepositoryInitializationListener.onApplicationEvent - Spring Data repositories initialized!
+07-07-2020 13:40:41.470 [main] INFO 
+				c.p.s.MysqlProjectApplication.logStarted - Started MysqlProjectApplication in 5.083 seconds (JVM running for 7.017)
+07-07-2020 13:40:42.409 [RMI TCP Connection(1)-127.0.0.1] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+07-07-2020 13:40:42.409 [RMI TCP Connection(1)-127.0.0.1] INFO 
+				o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+07-07-2020 13:40:42.416 [RMI TCP Connection(1)-127.0.0.1] INFO 
+				o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 6 ms
+07-07-2020 13:41:57.005 [RMI TCP Connection(11)-127.0.0.1] INFO 
+				o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+07-07-2020 13:41:57.776 [RMI TCP Connection(11)-127.0.0.1] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+07-07-2020 13:41:57.780 [RMI TCP Connection(11)-127.0.0.1] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+07-07-2020 13:41:57.781 [RMI TCP Connection(11)-127.0.0.1] INFO 
+				com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+07-07-2020 13:41:57.798 [RMI TCP Connection(11)-127.0.0.1] INFO 
+				com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+08-07-2020 09:14:10.042 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 485944 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+08-07-2020 09:14:10.046 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+08-07-2020 09:14:11.508 [main] WARN 
+				o.s.w.c.s.GenericWebApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.personalsoft.sqlproject.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+08-07-2020 09:14:11.522 [main] INFO 
+				o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+08-07-2020 09:14:11.660 [main] ERROR
+				o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userService in com.personalsoft.sqlproject.controller.UserController required a bean of type 'com.personalsoft.sqlproject.service.UserService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.personalsoft.sqlproject.service.UserService' in your configuration.
+
+08-07-2020 09:14:11.832 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 485944 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+08-07-2020 09:14:11.833 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+08-07-2020 09:14:12.291 [main] WARN 
+				o.s.w.c.s.GenericWebApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.personalsoft.sqlproject.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+08-07-2020 09:14:12.296 [main] INFO 
+				o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+08-07-2020 09:14:12.372 [main] ERROR
+				o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userService in com.personalsoft.sqlproject.controller.UserController required a bean of type 'com.personalsoft.sqlproject.service.UserService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.personalsoft.sqlproject.service.UserService' in your configuration.
+
+08-07-2020 09:14:12.379 [main] ERROR
+				o.s.test.context.TestContextManager.prepareTestInstance - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@36b4091c] to prepare test instance [com.personalsoft.sqlproject.MysqlProjectApplicationTests@7582ff54]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassTestDescriptor.java:352)
+	at org.junit.jupiter.engine.descriptor.JupiterTestDescriptor.executeAndMaskThrowable(JupiterTestDescriptor.java:204)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$invokeTestInstancePostProcessors$7(ClassTestDescriptor.java:352)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1654)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.invokeTestInstancePostProcessors(ClassTestDescriptor.java:351)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.instantiateAndPostProcessTestInstance(ClassTestDescriptor.java:270)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$testInstancesProvider$2(ClassTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$testInstancesProvider$3(ClassTestDescriptor.java:263)
+	at java.base/java.util.Optional.orElseGet(Optional.java:369)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$testInstancesProvider$4(ClassTestDescriptor.java:262)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:98)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:97)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:137)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.personalsoft.sqlproject.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:893)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 66 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.personalsoft.sqlproject.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1714)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1270)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1224)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 85 common frames omitted
+08-07-2020 09:15:21.502 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 482208 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+08-07-2020 09:15:21.505 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+08-07-2020 09:15:22.834 [main] WARN 
+				o.s.w.c.s.GenericWebApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.personalsoft.sqlproject.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+08-07-2020 09:15:22.846 [main] INFO 
+				o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+08-07-2020 09:15:22.938 [main] ERROR
+				o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userService in com.personalsoft.sqlproject.controller.UserController required a bean of type 'com.personalsoft.sqlproject.service.UserService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.personalsoft.sqlproject.service.UserService' in your configuration.
+
+08-07-2020 09:15:23.073 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 482208 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+08-07-2020 09:15:23.074 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+08-07-2020 09:15:23.607 [main] WARN 
+				o.s.w.c.s.GenericWebApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.personalsoft.sqlproject.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+08-07-2020 09:15:23.613 [main] INFO 
+				o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+08-07-2020 09:15:23.713 [main] ERROR
+				o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userService in com.personalsoft.sqlproject.controller.UserController required a bean of type 'com.personalsoft.sqlproject.service.UserService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.personalsoft.sqlproject.service.UserService' in your configuration.
+
+08-07-2020 09:15:23.720 [main] ERROR
+				o.s.test.context.TestContextManager.prepareTestInstance - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@12d2ce03] to prepare test instance [com.personalsoft.sqlproject.MysqlProjectApplicationTests@6cce16f4]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:98)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassTestDescriptor.java:352)
+	at org.junit.jupiter.engine.descriptor.JupiterTestDescriptor.executeAndMaskThrowable(JupiterTestDescriptor.java:204)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$invokeTestInstancePostProcessors$7(ClassTestDescriptor.java:352)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1654)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.invokeTestInstancePostProcessors(ClassTestDescriptor.java:351)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.instantiateAndPostProcessTestInstance(ClassTestDescriptor.java:270)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$testInstancesProvider$2(ClassTestDescriptor.java:259)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$testInstancesProvider$3(ClassTestDescriptor.java:263)
+	at java.base/java.util.Optional.orElseGet(Optional.java:369)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$testInstancesProvider$4(ClassTestDescriptor.java:262)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:98)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:97)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:137)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.personalsoft.sqlproject.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:893)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 66 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.personalsoft.sqlproject.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1714)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1270)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1224)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 85 common frames omitted
+08-07-2020 09:19:50.948 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 474896 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+08-07-2020 09:19:50.951 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+08-07-2020 09:19:54.166 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-07-2020 09:19:54.706 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+08-07-2020 09:19:54.707 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+08-07-2020 09:19:54.747 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 39 ms
+08-07-2020 09:19:54.811 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 4.855 seconds (JVM running for 6.81)
+08-07-2020 09:19:54.864 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+08-07-2020 09:19:54.865 [main] WARN 
+				o.s.stereotype.Controller.createUser - Creating new user warning
+08-07-2020 09:19:54.865 [main] ERROR
+				o.s.stereotype.Controller.createUser - Creating new user error
+08-07-2020 09:19:54.912 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+08-07-2020 09:24:20.522 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 480824 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+08-07-2020 09:24:20.525 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+08-07-2020 09:24:23.036 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-07-2020 09:24:23.521 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+08-07-2020 09:24:23.522 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+08-07-2020 09:24:23.550 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 28 ms
+08-07-2020 09:24:23.611 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 4.339 seconds (JVM running for 6.482)
+08-07-2020 09:24:23.654 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+08-07-2020 09:24:23.655 [main] WARN 
+				o.s.stereotype.Controller.createUser - Creating new user warning
+08-07-2020 09:24:23.656 [main] ERROR
+				o.s.stereotype.Controller.createUser - Creating new user error
+08-07-2020 09:24:23.709 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+08-07-2020 09:27:13.831 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 479924 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+08-07-2020 09:27:13.834 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+08-07-2020 09:27:16.323 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-07-2020 09:27:16.807 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+08-07-2020 09:27:16.808 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+08-07-2020 09:27:16.851 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 42 ms
+08-07-2020 09:27:16.922 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 3.905 seconds (JVM running for 5.804)
+08-07-2020 09:27:16.974 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+08-07-2020 09:27:16.975 [main] WARN 
+				o.s.stereotype.Controller.createUser - Creating new user warning
+08-07-2020 09:27:16.976 [main] ERROR
+				o.s.stereotype.Controller.createUser - Creating new user error
+08-07-2020 09:27:17.030 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+08-07-2020 09:27:47.033 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 487212 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+08-07-2020 09:27:47.037 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+08-07-2020 09:27:49.611 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-07-2020 09:27:50.115 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+08-07-2020 09:27:50.116 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+08-07-2020 09:27:50.149 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 32 ms
+08-07-2020 09:27:50.217 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 4.129 seconds (JVM running for 5.889)
+08-07-2020 09:27:50.266 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+08-07-2020 09:27:50.266 [main] WARN 
+				o.s.stereotype.Controller.createUser - Creating new user warning
+08-07-2020 09:27:50.267 [main] ERROR
+				o.s.stereotype.Controller.createUser - Creating new user error
+08-07-2020 09:27:50.267 [main] INFO 
+				o.s.stereotype.Controller.createUser - createUser(): null
+08-07-2020 09:27:50.313 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+08-07-2020 09:58:35.756 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 491100 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+08-07-2020 09:58:35.759 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+08-07-2020 09:58:38.370 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-07-2020 09:58:38.927 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+08-07-2020 09:58:38.928 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+08-07-2020 09:58:38.958 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 29 ms
+08-07-2020 09:58:39.024 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 4.107 seconds (JVM running for 5.991)
+08-07-2020 09:58:39.073 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+08-07-2020 09:58:39.073 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+08-07-2020 09:58:39.151 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+08-07-2020 09:58:39.184 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+08-07-2020 09:59:58.170 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 490732 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+08-07-2020 09:59:58.174 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+08-07-2020 10:00:02.215 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-07-2020 10:00:02.917 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+08-07-2020 10:00:02.918 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+08-07-2020 10:00:02.956 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 37 ms
+08-07-2020 10:00:03.043 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 6.031 seconds (JVM running for 8.447)
+08-07-2020 10:00:03.098 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+08-07-2020 10:00:03.099 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+08-07-2020 10:00:03.183 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+08-07-2020 10:25:28.803 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 495172 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+08-07-2020 10:25:28.808 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+08-07-2020 10:25:32.953 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-07-2020 10:25:33.681 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+08-07-2020 10:25:33.682 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+08-07-2020 10:25:33.719 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 36 ms
+08-07-2020 10:25:33.800 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 7.225 seconds (JVM running for 10.639)
+08-07-2020 10:25:33.845 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+08-07-2020 10:27:00.875 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 494944 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+08-07-2020 10:27:00.879 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+08-07-2020 10:27:06.280 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-07-2020 10:27:07.139 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+08-07-2020 10:27:07.140 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+08-07-2020 10:27:07.179 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 38 ms
+08-07-2020 10:27:07.270 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 8.149 seconds (JVM running for 10.769)
+08-07-2020 10:27:07.340 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+08-07-2020 10:27:07.341 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+08-07-2020 10:27:07.504 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+08-07-2020 10:27:17.018 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 495264 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+08-07-2020 10:27:17.041 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+08-07-2020 10:27:22.236 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-07-2020 10:27:23.041 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+08-07-2020 10:27:23.042 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+08-07-2020 10:27:23.083 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 39 ms
+08-07-2020 10:27:23.161 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 7.88 seconds (JVM running for 10.748)
+08-07-2020 10:27:23.219 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+08-07-2020 10:28:54.071 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+08-07-2020 10:29:05.557 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+08-07-2020 10:29:34.130 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 487044 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+08-07-2020 10:29:34.133 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+08-07-2020 10:29:37.018 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-07-2020 10:29:37.545 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+08-07-2020 10:29:37.546 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+08-07-2020 10:29:37.576 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 30 ms
+08-07-2020 10:29:37.636 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 4.772 seconds (JVM running for 7.012)
+08-07-2020 10:29:37.678 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+08-07-2020 10:29:37.679 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+08-07-2020 10:29:37.750 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+08-07-2020 10:29:47.028 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 494572 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+08-07-2020 10:29:47.034 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+08-07-2020 10:29:51.057 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-07-2020 10:29:51.828 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+08-07-2020 10:29:51.829 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+08-07-2020 10:29:51.872 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 43 ms
+08-07-2020 10:29:51.973 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 6.586 seconds (JVM running for 9.251)
+08-07-2020 10:29:52.044 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+08-07-2020 10:29:55.555 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+08-07-2020 10:31:17.604 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+08-07-2020 10:47:00.486 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 496892 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+08-07-2020 10:47:00.491 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+08-07-2020 10:47:07.056 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-07-2020 10:47:07.815 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+08-07-2020 10:47:07.816 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+08-07-2020 10:47:07.859 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 42 ms
+08-07-2020 10:47:07.952 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 9.32 seconds (JVM running for 12.825)
+08-07-2020 10:47:07.999 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+08-07-2020 10:47:14.282 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+08-07-2020 10:47:16.275 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+08-07-2020 11:32:36.234 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 501632 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+08-07-2020 11:32:36.238 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+08-07-2020 11:32:39.306 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-07-2020 11:32:39.804 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+08-07-2020 11:32:39.805 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+08-07-2020 11:32:39.830 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 24 ms
+08-07-2020 11:32:39.884 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 4.71 seconds (JVM running for 7.061)
+08-07-2020 11:32:39.918 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+08-07-2020 11:32:40.494 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+08-07-2020 11:32:40.627 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+08-07-2020 11:35:17.765 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 503308 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+08-07-2020 11:35:17.770 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+08-07-2020 11:35:21.221 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-07-2020 11:35:21.862 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+08-07-2020 11:35:21.863 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+08-07-2020 11:35:21.894 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 31 ms
+08-07-2020 11:35:21.974 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 5.601 seconds (JVM running for 7.846)
+08-07-2020 11:35:22.013 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+08-07-2020 11:35:22.520 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+08-07-2020 11:35:22.611 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+08-07-2020 11:37:08.134 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 504088 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+08-07-2020 11:37:08.140 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+08-07-2020 11:37:11.217 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-07-2020 11:37:11.612 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+08-07-2020 11:37:11.613 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+08-07-2020 11:37:11.642 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 28 ms
+08-07-2020 11:37:11.697 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 4.816 seconds (JVM running for 6.995)
+08-07-2020 11:37:11.731 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+08-07-2020 11:37:12.243 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+08-07-2020 11:37:12.340 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+08-07-2020 11:41:10.287 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 496916 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+08-07-2020 11:41:10.290 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+08-07-2020 11:41:13.247 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-07-2020 11:41:13.858 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+08-07-2020 11:41:13.859 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+08-07-2020 11:41:13.885 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 25 ms
+08-07-2020 11:41:13.954 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 4.688 seconds (JVM running for 7.177)
+08-07-2020 11:41:13.993 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+08-07-2020 11:41:14.540 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+08-07-2020 11:41:14.649 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+08-07-2020 11:44:08.909 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 497784 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+08-07-2020 11:44:08.912 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+08-07-2020 11:44:11.669 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-07-2020 11:44:12.099 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+08-07-2020 11:44:12.100 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+08-07-2020 11:44:12.123 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 23 ms
+08-07-2020 11:44:12.179 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 4.229 seconds (JVM running for 6.429)
+08-07-2020 11:44:12.220 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+08-07-2020 11:44:12.755 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+08-07-2020 11:44:12.859 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+08-07-2020 11:47:13.401 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 503428 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+08-07-2020 11:47:13.404 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+08-07-2020 11:47:16.108 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-07-2020 11:47:16.575 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+08-07-2020 11:47:16.576 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+08-07-2020 11:47:16.598 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 21 ms
+08-07-2020 11:47:16.646 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 4.238 seconds (JVM running for 6.289)
+08-07-2020 11:47:16.674 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+08-07-2020 11:47:17.126 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+08-07-2020 11:47:17.224 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+08-07-2020 12:01:19.644 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 495192 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+08-07-2020 12:01:19.646 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+08-07-2020 12:01:22.082 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+08-07-2020 12:01:22.594 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+08-07-2020 12:01:22.595 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+08-07-2020 12:01:22.621 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 25 ms
+08-07-2020 12:01:22.687 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 3.818 seconds (JVM running for 5.56)
+08-07-2020 12:01:22.727 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+08-07-2020 12:01:23.255 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+08-07-2020 12:01:23.329 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+09-07-2020 08:53:51.324 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 562564 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+09-07-2020 08:53:51.328 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+09-07-2020 08:53:56.932 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+09-07-2020 08:53:58.437 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-07-2020 08:53:58.439 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-07-2020 08:53:58.501 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 61 ms
+09-07-2020 08:53:58.625 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 9.621 seconds (JVM running for 14.548)
+09-07-2020 08:53:58.707 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+09-07-2020 08:53:59.747 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+09-07-2020 08:58:53.414 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 563036 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+09-07-2020 08:58:53.419 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+09-07-2020 08:58:58.238 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+09-07-2020 08:58:58.848 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-07-2020 08:58:58.850 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-07-2020 08:58:58.881 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 30 ms
+09-07-2020 08:58:58.955 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 6.893 seconds (JVM running for 10.735)
+09-07-2020 08:58:58.998 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+09-07-2020 08:58:59.978 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+09-07-2020 08:59:43.582 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 564028 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+09-07-2020 08:59:43.586 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+09-07-2020 08:59:49.434 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+09-07-2020 08:59:50.323 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-07-2020 08:59:50.324 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-07-2020 08:59:50.367 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 42 ms
+09-07-2020 08:59:50.446 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 9.623 seconds (JVM running for 20.171)
+09-07-2020 08:59:50.504 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+09-07-2020 08:59:52.440 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+09-07-2020 09:00:39.517 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 558548 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+09-07-2020 09:00:39.533 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+09-07-2020 09:00:46.425 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+09-07-2020 09:00:47.488 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-07-2020 09:00:47.489 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-07-2020 09:00:47.527 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 38 ms
+09-07-2020 09:00:47.633 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 11.284 seconds (JVM running for 19.588)
+09-07-2020 09:00:47.787 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+09-07-2020 09:00:49.404 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+09-07-2020 09:00:50.692 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+09-07-2020 09:06:15.423 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 565912 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+09-07-2020 09:06:15.427 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+09-07-2020 09:06:18.950 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+09-07-2020 09:06:19.591 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-07-2020 09:06:19.592 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-07-2020 09:06:19.628 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 35 ms
+09-07-2020 09:06:19.721 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 5.87 seconds (JVM running for 8.634)
+09-07-2020 09:06:19.784 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+09-07-2020 09:06:20.410 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+09-07-2020 09:06:20.539 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+09-07-2020 09:07:28.079 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 565644 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+09-07-2020 09:07:28.091 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+09-07-2020 09:07:34.628 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+09-07-2020 09:07:35.367 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-07-2020 09:07:35.368 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-07-2020 09:07:35.409 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 40 ms
+09-07-2020 09:07:35.500 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 10.062 seconds (JVM running for 16.998)
+09-07-2020 09:07:35.569 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+09-07-2020 09:07:36.402 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+09-07-2020 09:07:37.109 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+09-07-2020 09:09:30.417 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 566228 (started by difernandez in C:\Users\difernandez\Documents\FORMACI�N PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+09-07-2020 09:09:30.423 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+09-07-2020 09:09:34.742 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+09-07-2020 09:09:35.609 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-07-2020 09:09:35.610 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-07-2020 09:09:35.651 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 40 ms
+09-07-2020 09:09:35.723 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 6.482 seconds (JVM running for 9.089)
+09-07-2020 09:09:35.776 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+09-07-2020 09:09:36.384 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+09-07-2020 09:09:36.569 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+09-07-2020 09:09:59.709 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 565232 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+09-07-2020 09:09:59.717 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+09-07-2020 09:10:06.135 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+09-07-2020 09:10:07.080 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-07-2020 09:10:07.081 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-07-2020 09:10:07.131 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 49 ms
+09-07-2020 09:10:07.248 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 10.109 seconds (JVM running for 16.157)
+09-07-2020 09:10:07.475 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+09-07-2020 09:10:08.811 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+09-07-2020 09:10:08.929 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+09-07-2020 09:12:05.403 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 565144 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+09-07-2020 09:12:05.409 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+09-07-2020 09:12:59.547 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 563756 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+09-07-2020 09:12:59.551 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+09-07-2020 09:13:04.195 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+09-07-2020 09:13:04.947 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-07-2020 09:13:04.948 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-07-2020 09:13:04.986 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 37 ms
+09-07-2020 09:13:05.067 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 6.956 seconds (JVM running for 9.715)
+09-07-2020 09:13:05.117 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+09-07-2020 09:13:06.012 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+09-07-2020 09:13:06.195 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+09-07-2020 09:13:14.574 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 559388 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+09-07-2020 09:13:14.581 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+09-07-2020 09:13:19.540 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+09-07-2020 09:13:20.360 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-07-2020 09:13:20.361 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-07-2020 09:13:20.407 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 43 ms
+09-07-2020 09:13:20.511 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 8.119 seconds (JVM running for 13.948)
+09-07-2020 09:13:20.584 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+09-07-2020 09:13:21.548 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+09-07-2020 09:13:21.646 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+09-07-2020 09:15:36.076 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 561884 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+09-07-2020 09:15:36.080 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+09-07-2020 09:15:39.320 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+09-07-2020 09:15:39.891 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-07-2020 09:15:39.892 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-07-2020 09:15:39.941 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 48 ms
+09-07-2020 09:15:40.003 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 5.4 seconds (JVM running for 7.774)
+09-07-2020 09:15:40.048 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+09-07-2020 09:15:40.560 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+09-07-2020 09:15:40.652 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+09-07-2020 09:16:07.298 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 564284 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+09-07-2020 09:16:07.304 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+09-07-2020 09:16:13.921 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+09-07-2020 09:16:14.782 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-07-2020 09:16:14.783 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-07-2020 09:16:14.840 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 52 ms
+09-07-2020 09:16:14.941 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 10.649 seconds (JVM running for 18.545)
+09-07-2020 09:16:15.033 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+09-07-2020 09:16:16.247 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+09-07-2020 09:16:16.409 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+09-07-2020 10:26:25.414 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 573320 (started by difernandez in C:\Users\difernandez\Documents\FORMACI�N PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+09-07-2020 10:26:25.417 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+09-07-2020 10:26:29.917 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+09-07-2020 10:26:30.587 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-07-2020 10:26:30.589 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-07-2020 10:26:30.647 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 54 ms
+09-07-2020 10:26:30.770 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 6.782 seconds (JVM running for 10.406)
+09-07-2020 10:26:30.832 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+09-07-2020 10:26:31.727 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+09-07-2020 10:26:32.041 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+09-07-2020 10:41:37.411 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 577880 (started by difernandez in C:\Users\difernandez\Documents\FORMACI�N PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+09-07-2020 10:41:37.416 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+09-07-2020 10:41:43.553 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+09-07-2020 10:41:44.415 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-07-2020 10:41:44.417 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-07-2020 10:41:44.475 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 55 ms
+09-07-2020 10:41:44.596 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 9.817 seconds (JVM running for 17.75)
+09-07-2020 10:41:44.700 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+09-07-2020 10:41:46.011 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+09-07-2020 10:41:46.452 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+09-07-2020 10:53:17.723 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 579736 (started by difernandez in C:\Users\difernandez\Documents\FORMACI�N PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+09-07-2020 10:53:17.732 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+09-07-2020 10:53:24.664 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+09-07-2020 10:53:25.721 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-07-2020 10:53:25.722 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-07-2020 10:53:25.775 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 51 ms
+09-07-2020 10:53:25.918 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 11.613 seconds (JVM running for 19.471)
+09-07-2020 10:53:26.002 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+09-07-2020 10:53:27.189 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+09-07-2020 10:53:27.580 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+09-07-2020 10:54:26.429 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 577520 (started by difernandez in C:\Users\difernandez\Documents\FORMACI�N PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+09-07-2020 10:54:26.433 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+09-07-2020 10:54:33.245 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+09-07-2020 10:54:34.039 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-07-2020 10:54:34.041 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-07-2020 10:54:34.076 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 34 ms
+09-07-2020 10:54:34.149 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 9.635 seconds (JVM running for 17.499)
+09-07-2020 10:54:34.197 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+09-07-2020 10:54:34.902 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+09-07-2020 10:54:35.077 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+10-07-2020 09:02:44.595 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 673392 (started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+10-07-2020 09:02:44.601 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+10-07-2020 09:02:48.474 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+10-07-2020 09:02:49.268 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+10-07-2020 09:02:49.269 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+10-07-2020 09:02:49.304 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 34 ms
+10-07-2020 09:02:49.377 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 5.882 seconds (JVM running for 8.953)
+10-07-2020 09:02:49.422 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+10-07-2020 09:02:49.973 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+10-07-2020 09:02:50.065 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT02_UpdateUserSuccess_ReturnOkAndAnUser - user_UT02_UpdateUserSuccess_ReturnOkAndAnUser
+10-07-2020 09:02:50.117 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+10-07-2020 09:12:12.594 [restartedMain] INFO 
+				c.p.s.MysqlProjectApplication.logStarting - Starting MysqlProjectApplication on PSLT5816 with PID 674404 (C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject\target\classes started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+10-07-2020 09:12:12.599 [restartedMain] INFO 
+				c.p.s.MysqlProjectApplication.logStartupProfileInfo - The following profiles are active: qa
+10-07-2020 09:12:12.692 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+10-07-2020 09:12:12.693 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+10-07-2020 09:12:14.295 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+10-07-2020 09:12:14.372 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 67ms. Found 1 JPA repository interfaces.
+10-07-2020 09:12:15.174 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+10-07-2020 09:12:15.188 [restartedMain] INFO 
+				o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8082"]
+10-07-2020 09:12:15.189 [restartedMain] INFO 
+				o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+10-07-2020 09:12:15.189 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.36]
+10-07-2020 09:12:15.365 [restartedMain] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+10-07-2020 09:12:15.365 [restartedMain] INFO 
+				o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2671 ms
+10-07-2020 09:12:15.688 [restartedMain] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+10-07-2020 09:12:15.742 [task-1] INFO 
+				o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+10-07-2020 09:12:15.824 [task-1] INFO 
+				org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.17.Final
+10-07-2020 09:12:15.824 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10-07-2020 09:12:16.125 [task-1] INFO 
+				o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+10-07-2020 09:12:16.329 [task-1] INFO 
+				com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+10-07-2020 09:12:17.059 [task-1] INFO 
+				com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+10-07-2020 09:12:17.095 [task-1] INFO 
+				org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+10-07-2020 09:12:18.282 [task-1] INFO 
+				o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10-07-2020 09:12:18.292 [task-1] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10-07-2020 09:12:18.317 [task-2] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+10-07-2020 09:12:18.344 [RMI TCP Connection(1)-127.0.0.1] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10-07-2020 09:12:18.345 [RMI TCP Connection(1)-127.0.0.1] INFO 
+				o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+10-07-2020 09:12:18.378 [restartedMain] INFO 
+				o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+10-07-2020 09:12:18.397 [RMI TCP Connection(1)-127.0.0.1] INFO 
+				o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 52 ms
+10-07-2020 09:12:18.418 [restartedMain] INFO 
+				o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8082"]
+10-07-2020 09:12:18.457 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8082 (http) with context path ''
+10-07-2020 09:12:18.459 [restartedMain] INFO 
+				o.s.d.r.c.DeferredRepositoryInitializationListener.onApplicationEvent - Triggering deferred initialization of Spring Data repositories…
+10-07-2020 09:12:18.711 [restartedMain] INFO 
+				o.s.d.r.c.DeferredRepositoryInitializationListener.onApplicationEvent - Spring Data repositories initialized!
+10-07-2020 09:12:18.717 [restartedMain] INFO 
+				c.p.s.MysqlProjectApplication.logStarted - Started MysqlProjectApplication in 6.662 seconds (JVM running for 8.705)
+10-07-2020 09:15:37.711 [RMI TCP Connection(3)-127.0.0.1] INFO 
+				o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+10-07-2020 09:15:37.763 [RMI TCP Connection(4)-127.0.0.1] INFO 
+				o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+10-07-2020 09:15:38.645 [RMI TCP Connection(3)-127.0.0.1] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+10-07-2020 09:15:38.648 [RMI TCP Connection(3)-127.0.0.1] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+10-07-2020 09:15:38.650 [RMI TCP Connection(3)-127.0.0.1] INFO 
+				com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+10-07-2020 09:15:38.668 [RMI TCP Connection(3)-127.0.0.1] INFO 
+				com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+10-07-2020 09:16:09.292 [restartedMain] INFO 
+				c.p.s.MysqlProjectApplication.logStarting - Starting MysqlProjectApplication on PSLT5816 with PID 672512 (C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject\target\classes started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+10-07-2020 09:16:09.297 [restartedMain] INFO 
+				c.p.s.MysqlProjectApplication.logStartupProfileInfo - The following profiles are active: qa
+10-07-2020 09:16:09.375 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+10-07-2020 09:16:09.375 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+10-07-2020 09:16:10.880 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+10-07-2020 09:16:10.963 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 70ms. Found 1 JPA repository interfaces.
+10-07-2020 09:16:11.736 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+10-07-2020 09:16:11.748 [restartedMain] INFO 
+				o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8082"]
+10-07-2020 09:16:11.748 [restartedMain] INFO 
+				o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+10-07-2020 09:16:11.749 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.36]
+10-07-2020 09:16:11.911 [restartedMain] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+10-07-2020 09:16:11.912 [restartedMain] INFO 
+				o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2536 ms
+10-07-2020 09:16:12.164 [restartedMain] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+10-07-2020 09:16:12.207 [task-1] INFO 
+				o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+10-07-2020 09:16:12.266 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10-07-2020 09:16:12.278 [task-1] INFO 
+				org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.17.Final
+10-07-2020 09:16:12.485 [task-1] INFO 
+				o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+10-07-2020 09:16:12.631 [task-1] INFO 
+				com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+10-07-2020 09:16:13.136 [task-1] INFO 
+				com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+10-07-2020 09:16:13.164 [task-1] INFO 
+				org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+10-07-2020 09:16:14.262 [task-1] INFO 
+				o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10-07-2020 09:16:14.273 [task-1] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10-07-2020 09:16:14.306 [task-2] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+10-07-2020 09:16:14.352 [RMI TCP Connection(1)-127.0.0.1] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10-07-2020 09:16:14.353 [RMI TCP Connection(1)-127.0.0.1] INFO 
+				o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+10-07-2020 09:16:14.373 [restartedMain] INFO 
+				o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+10-07-2020 09:16:14.400 [RMI TCP Connection(1)-127.0.0.1] INFO 
+				o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 46 ms
+10-07-2020 09:16:14.434 [restartedMain] INFO 
+				o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8082"]
+10-07-2020 09:16:14.475 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8082 (http) with context path ''
+10-07-2020 09:16:14.477 [restartedMain] INFO 
+				o.s.d.r.c.DeferredRepositoryInitializationListener.onApplicationEvent - Triggering deferred initialization of Spring Data repositories…
+10-07-2020 09:16:14.766 [restartedMain] INFO 
+				o.s.d.r.c.DeferredRepositoryInitializationListener.onApplicationEvent - Spring Data repositories initialized!
+10-07-2020 09:16:14.771 [restartedMain] INFO 
+				c.p.s.MysqlProjectApplication.logStarted - Started MysqlProjectApplication in 6.081 seconds (JVM running for 8.368)
+10-07-2020 09:16:53.114 [http-nio-8082-exec-5] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+10-07-2020 09:16:53.235 [http-nio-8082-exec-5] ERROR
+				o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.transaction.TransactionSystemException: Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction] with root cause
+javax.validation.ConstraintViolationException: Validation failed for classes [com.personalsoft.sqlproject.model.db.UserEntity] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='no debe ser nulo', propertyPath=age, rootBeanClass=class com.personalsoft.sqlproject.model.db.UserEntity, messageTemplate='{javax.validation.constraints.NotNull.message}'}
+]
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.validate(BeanValidationEventListener.java:140)
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.onPreInsert(BeanValidationEventListener.java:80)
+	at org.hibernate.action.internal.EntityInsertAction.preInsert(EntityInsertAction.java:227)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:100)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:348)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:102)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1360)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:451)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3210)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2378)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:447)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:534)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:632)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:386)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy123.save(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:205)
+	at com.sun.proxy.$Proxy90.save(Unknown Source)
+	at com.personalsoft.sqlproject.service.UserService.create(UserService.java:32)
+	at com.personalsoft.sqlproject.controller.UserController.createUser(UserController.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+10-07-2020 09:18:14.615 [Thread-319] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+10-07-2020 09:18:14.618 [Thread-319] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+10-07-2020 09:18:14.620 [Thread-319] INFO 
+				com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+10-07-2020 09:18:14.635 [Thread-319] INFO 
+				com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+10-07-2020 09:18:14.762 [restartedMain] INFO 
+				c.p.s.MysqlProjectApplication.logStarting - Starting MysqlProjectApplication on PSLT5816 with PID 672512 (C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject\target\classes started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+10-07-2020 09:18:14.762 [restartedMain] INFO 
+				c.p.s.MysqlProjectApplication.logStartupProfileInfo - The following profiles are active: qa
+10-07-2020 09:18:15.240 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+10-07-2020 09:18:15.254 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 13ms. Found 1 JPA repository interfaces.
+10-07-2020 09:18:15.380 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+10-07-2020 09:18:15.381 [restartedMain] INFO 
+				o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8082"]
+10-07-2020 09:18:15.381 [restartedMain] INFO 
+				o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+10-07-2020 09:18:15.381 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.36]
+10-07-2020 09:18:15.415 [restartedMain] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+10-07-2020 09:18:15.415 [restartedMain] INFO 
+				o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 650 ms
+10-07-2020 09:18:15.509 [restartedMain] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+10-07-2020 09:18:15.517 [task-1] INFO 
+				o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+10-07-2020 09:18:15.526 [task-1] INFO 
+				com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-2 - Starting...
+10-07-2020 09:18:15.548 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10-07-2020 09:18:15.549 [task-1] INFO 
+				com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-2 - Start completed.
+10-07-2020 09:18:15.550 [task-1] INFO 
+				org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+10-07-2020 09:18:15.900 [task-1] INFO 
+				o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10-07-2020 09:18:15.900 [task-1] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10-07-2020 09:18:15.909 [task-2] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+10-07-2020 09:18:15.958 [restartedMain] INFO 
+				o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+10-07-2020 09:18:15.983 [restartedMain] INFO 
+				o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8082"]
+10-07-2020 09:18:15.988 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8082 (http) with context path ''
+10-07-2020 09:18:15.989 [restartedMain] INFO 
+				o.s.d.r.c.DeferredRepositoryInitializationListener.onApplicationEvent - Triggering deferred initialization of Spring Data repositories…
+10-07-2020 09:18:16.029 [restartedMain] INFO 
+				o.s.d.r.c.DeferredRepositoryInitializationListener.onApplicationEvent - Spring Data repositories initialized!
+10-07-2020 09:18:16.044 [restartedMain] INFO 
+				c.p.s.MysqlProjectApplication.logStarted - Started MysqlProjectApplication in 1.334 seconds (JVM running for 129.641)
+10-07-2020 09:18:16.047 [restartedMain] INFO 
+				o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+10-07-2020 09:18:22.065 [Thread-323] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+10-07-2020 09:18:22.066 [Thread-323] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+10-07-2020 09:18:22.067 [Thread-323] INFO 
+				com.zaxxer.hikari.HikariDataSource.close - HikariPool-2 - Shutdown initiated...
+10-07-2020 09:18:22.083 [Thread-323] INFO 
+				com.zaxxer.hikari.HikariDataSource.close - HikariPool-2 - Shutdown completed.
+10-07-2020 09:18:22.211 [restartedMain] INFO 
+				c.p.s.MysqlProjectApplication.logStarting - Starting MysqlProjectApplication on PSLT5816 with PID 672512 (C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject\target\classes started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+10-07-2020 09:18:22.211 [restartedMain] INFO 
+				c.p.s.MysqlProjectApplication.logStartupProfileInfo - The following profiles are active: qa
+10-07-2020 09:18:22.749 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+10-07-2020 09:18:22.765 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 15ms. Found 1 JPA repository interfaces.
+10-07-2020 09:18:22.893 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+10-07-2020 09:18:22.894 [restartedMain] INFO 
+				o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8082"]
+10-07-2020 09:18:22.894 [restartedMain] INFO 
+				o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+10-07-2020 09:18:22.895 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.36]
+10-07-2020 09:18:22.927 [restartedMain] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+10-07-2020 09:18:22.928 [restartedMain] INFO 
+				o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 712 ms
+10-07-2020 09:18:23.015 [restartedMain] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+10-07-2020 09:18:23.023 [task-1] INFO 
+				o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+10-07-2020 09:18:23.033 [task-1] INFO 
+				com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-3 - Starting...
+10-07-2020 09:18:23.051 [task-1] INFO 
+				com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-3 - Start completed.
+10-07-2020 09:18:23.052 [task-1] INFO 
+				org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+10-07-2020 09:18:23.054 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10-07-2020 09:18:23.218 [task-1] INFO 
+				o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10-07-2020 09:18:23.219 [task-1] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10-07-2020 09:18:23.240 [task-2] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+10-07-2020 09:18:23.371 [restartedMain] INFO 
+				o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+10-07-2020 09:18:23.398 [restartedMain] INFO 
+				o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8082"]
+10-07-2020 09:18:23.403 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8082 (http) with context path ''
+10-07-2020 09:18:23.405 [restartedMain] INFO 
+				o.s.d.r.c.DeferredRepositoryInitializationListener.onApplicationEvent - Triggering deferred initialization of Spring Data repositories…
+10-07-2020 09:18:23.431 [restartedMain] INFO 
+				o.s.d.r.c.DeferredRepositoryInitializationListener.onApplicationEvent - Spring Data repositories initialized!
+10-07-2020 09:18:23.441 [restartedMain] INFO 
+				c.p.s.MysqlProjectApplication.logStarted - Started MysqlProjectApplication in 1.285 seconds (JVM running for 137.039)
+10-07-2020 09:18:23.444 [restartedMain] INFO 
+				o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+10-07-2020 09:18:30.517 [RMI TCP Connection(4)-127.0.0.1] INFO 
+				o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+10-07-2020 09:18:31.296 [RMI TCP Connection(4)-127.0.0.1] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+10-07-2020 09:18:31.297 [RMI TCP Connection(4)-127.0.0.1] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+10-07-2020 09:18:31.298 [RMI TCP Connection(4)-127.0.0.1] INFO 
+				com.zaxxer.hikari.HikariDataSource.close - HikariPool-3 - Shutdown initiated...
+10-07-2020 09:18:31.315 [RMI TCP Connection(4)-127.0.0.1] INFO 
+				com.zaxxer.hikari.HikariDataSource.close - HikariPool-3 - Shutdown completed.
+10-07-2020 09:19:01.705 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 673708 (started by difernandez in C:\Users\difernandez\Documents\FORMACI�N PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+10-07-2020 09:19:01.711 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+10-07-2020 09:19:07.009 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+10-07-2020 09:19:07.653 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+10-07-2020 09:19:07.654 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+10-07-2020 09:19:07.696 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 41 ms
+10-07-2020 09:19:07.789 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 8.942 seconds (JVM running for 15.719)
+10-07-2020 09:19:07.876 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+10-07-2020 09:19:08.755 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+10-07-2020 09:19:08.870 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT02_UpdateUserSuccess_ReturnOkAndAnUser - user_UT02_UpdateUserSuccess_ReturnOkAndAnUser
+10-07-2020 09:19:08.888 [main] ERROR
+				c.p.sqlproject.service.UserService.update - No se puede actualizar el usuario
+10-07-2020 09:19:09.028 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+10-07-2020 09:20:55.069 [restartedMain] INFO 
+				c.p.s.MysqlProjectApplication.logStarting - Starting MysqlProjectApplication on PSLT5816 with PID 676376 (C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject\target\classes started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+10-07-2020 09:20:55.074 [restartedMain] INFO 
+				c.p.s.MysqlProjectApplication.logStartupProfileInfo - The following profiles are active: qa
+10-07-2020 09:20:55.153 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+10-07-2020 09:20:55.154 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+10-07-2020 09:20:56.624 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+10-07-2020 09:20:56.707 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 69ms. Found 1 JPA repository interfaces.
+10-07-2020 09:20:57.499 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+10-07-2020 09:20:57.512 [restartedMain] INFO 
+				o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8082"]
+10-07-2020 09:20:57.512 [restartedMain] INFO 
+				o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+10-07-2020 09:20:57.513 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.36]
+10-07-2020 09:20:57.681 [restartedMain] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+10-07-2020 09:20:57.681 [restartedMain] INFO 
+				o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2526 ms
+10-07-2020 09:20:57.958 [restartedMain] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+10-07-2020 09:20:58.004 [task-1] INFO 
+				o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+10-07-2020 09:20:58.070 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10-07-2020 09:20:58.080 [task-1] INFO 
+				org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.17.Final
+10-07-2020 09:20:58.273 [task-1] INFO 
+				o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+10-07-2020 09:20:58.441 [task-1] INFO 
+				com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+10-07-2020 09:22:49.695 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarting - Starting MysqlProjectApplicationTests on PSLT5816 with PID 670644 (started by difernandez in C:\Users\difernandez\Documents\FORMACI�N PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+10-07-2020 09:22:49.701 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStartupProfileInfo - The following profiles are active: qa
+10-07-2020 09:22:54.586 [main] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+10-07-2020 09:22:55.067 [main] INFO 
+				o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+10-07-2020 09:22:55.068 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+10-07-2020 09:22:55.099 [main] INFO 
+				o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 30 ms
+10-07-2020 09:22:55.172 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.logStarted - Started MysqlProjectApplicationTests in 7.834 seconds (JVM running for 12.246)
+10-07-2020 09:22:55.239 [main] INFO 
+				c.p.s.MysqlProjectApplicationTests.user_UT01_CreateUserSuccess_ReturnOkAndAnUser - user_UT01_CreateUserSuccess_ReturnOkAndAnUser
+10-07-2020 09:22:55.964 [main] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+10-07-2020 09:22:56.183 [SpringContextShutdownHook] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+10-07-2020 09:23:25.475 [restartedMain] INFO 
+				c.p.s.MysqlProjectApplication.logStarting - Starting MysqlProjectApplication on PSLT5816 with PID 677008 (C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject\target\classes started by difernandez in C:\Users\difernandez\Documents\FORMACIÓN PRUEBAS AUTOMATIZADAS\workspace-spring-tool-suite\MysqlProject)
+10-07-2020 09:23:25.478 [restartedMain] INFO 
+				c.p.s.MysqlProjectApplication.logStartupProfileInfo - The following profiles are active: qa
+10-07-2020 09:23:25.536 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+10-07-2020 09:23:25.536 [restartedMain] INFO 
+				o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+10-07-2020 09:23:26.838 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+10-07-2020 09:23:26.917 [restartedMain] INFO 
+				o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 68ms. Found 1 JPA repository interfaces.
+10-07-2020 09:23:27.643 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+10-07-2020 09:23:27.652 [restartedMain] INFO 
+				o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8082"]
+10-07-2020 09:23:27.653 [restartedMain] INFO 
+				o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+10-07-2020 09:23:27.653 [restartedMain] INFO 
+				o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.36]
+10-07-2020 09:23:27.798 [restartedMain] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+10-07-2020 09:23:27.798 [restartedMain] INFO 
+				o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2262 ms
+10-07-2020 09:23:28.040 [restartedMain] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+10-07-2020 09:23:28.082 [task-1] INFO 
+				o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+10-07-2020 09:23:28.143 [task-1] INFO 
+				org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.4.17.Final
+10-07-2020 09:23:28.146 [restartedMain] WARN 
+				o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10-07-2020 09:23:28.345 [task-1] INFO 
+				o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+10-07-2020 09:23:28.492 [task-1] INFO 
+				com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+10-07-2020 09:23:29.117 [task-1] INFO 
+				com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+10-07-2020 09:23:29.151 [task-1] INFO 
+				org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+10-07-2020 09:23:30.246 [task-1] INFO 
+				o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10-07-2020 09:23:30.256 [task-1] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+10-07-2020 09:23:30.283 [task-2] INFO 
+				o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+10-07-2020 09:23:30.345 [restartedMain] INFO 
+				o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+10-07-2020 09:23:30.365 [RMI TCP Connection(1)-127.0.0.1] INFO 
+				o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10-07-2020 09:23:30.365 [RMI TCP Connection(1)-127.0.0.1] INFO 
+				o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+10-07-2020 09:23:30.373 [RMI TCP Connection(1)-127.0.0.1] INFO 
+				o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 8 ms
+10-07-2020 09:23:30.385 [restartedMain] INFO 
+				o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8082"]
+10-07-2020 09:23:30.439 [restartedMain] INFO 
+				o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8082 (http) with context path ''
+10-07-2020 09:23:30.441 [restartedMain] INFO 
+				o.s.d.r.c.DeferredRepositoryInitializationListener.onApplicationEvent - Triggering deferred initialization of Spring Data repositories…
+10-07-2020 09:23:30.692 [restartedMain] INFO 
+				o.s.d.r.c.DeferredRepositoryInitializationListener.onApplicationEvent - Spring Data repositories initialized!
+10-07-2020 09:23:30.697 [restartedMain] INFO 
+				c.p.s.MysqlProjectApplication.logStarted - Started MysqlProjectApplication in 5.695 seconds (JVM running for 7.535)
+10-07-2020 09:24:09.382 [http-nio-8082-exec-5] INFO 
+				o.s.stereotype.Controller.createUser - Creating new user
+10-07-2020 09:24:09.474 [http-nio-8082-exec-5] ERROR
+				o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.transaction.TransactionSystemException: Could not commit JPA transaction; nested exception is javax.persistence.RollbackException: Error while committing the transaction] with root cause
+javax.validation.ConstraintViolationException: Validation failed for classes [com.personalsoft.sqlproject.model.db.UserEntity] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='no debe ser nulo', propertyPath=age, rootBeanClass=class com.personalsoft.sqlproject.model.db.UserEntity, messageTemplate='{javax.validation.constraints.NotNull.message}'}
+]
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.validate(BeanValidationEventListener.java:140)
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.onPreInsert(BeanValidationEventListener.java:80)
+	at org.hibernate.action.internal.EntityInsertAction.preInsert(EntityInsertAction.java:227)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:100)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:348)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:102)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1360)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:451)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3210)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2378)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:447)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:534)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:632)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:386)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy123.save(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:205)
+	at com.sun.proxy.$Proxy90.save(Unknown Source)
+	at com.personalsoft.sqlproject.service.UserService.create(UserService.java:32)
+	at com.personalsoft.sqlproject.controller.UserController.createUser(UserController.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+10-07-2020 09:25:00.132 [Thread-319] INFO 
+				o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+10-07-2020 09:25:00.136 [Thread-319] INFO 
+				o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+10-07-2020 09:25:00.139 [Thread-319] INFO 
+				com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+10-07-2020 09:25:00.159 [Thread-319] INFO 
+				com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
